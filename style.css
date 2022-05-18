@@ -2,4 +2,41 @@
 
 * {
   font-family: "Montserrat", "Open Sans", "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 80px;
+}
+
+.quadrado {
+  text-align: center;
+  width: 50px;
+  background: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.jogador,
+.vencedor {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 30px;
+  color: #eee;
+  cursor: pointer;
+  border: none;
 }
