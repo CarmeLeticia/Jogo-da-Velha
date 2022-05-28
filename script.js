@@ -91,9 +91,9 @@ function mudarVencedor(quadrado) {
 }
 
 function mudaCorQuadrado(quadrado1, quadrado2, quadrado3) {
-  quadrado1.style.background = "#0f0";
-  quadrado2.style.background = "#0f0";
-  quadrado3.style.background = "#0f0";
+  quadrado1.style.background = "#DAFDBA";
+  quadrado2.style.background = "#DAFDBA";
+  quadrado3.style.background = "#DAFDBA";
 }
 
 function checkSequencia(quadrado1, quadrado2, quadrado3) {
@@ -115,8 +115,8 @@ function reiniciar() {
 
   for (let i = 1; i <= 9; i++) {
     let quadrado = document.getElementById(i);
-    quadrado.style.background = "#eee";
-    quadrado.style.color = "#eee";
+    quadrado.style.background = "#45C4B0";
+    quadrado.style.color = "#45C4B0";
     quadrado.innerHTML = "-";
   }
   mudaJogador("X");
